@@ -13,7 +13,7 @@
            sync-f="true"/>
 
            
-  <project path="build" name="CyanogenMod/android_build" remote="gh" revision="cm-11.0" groups="pdk" >
+  <project path="build" name="platform/build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
